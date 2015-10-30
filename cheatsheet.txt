@@ -1,0 +1,11 @@
+gedit README.md & : to open README.md in gedit
+cat README.md :to view everything in README.md file
+R(Tab) : README.md
+git status : to view the status of your files
+git add (Name of file) : to add the file to your repository on github
+git commit -m "description of additions" : to commit the changes you've made to the files
+git push : to push the file back to github
+cd punch2177-cmis-wd:to get into repository
+ls: to view home folder
+cd: Go back to home folder
+cd ..: Back up one folder
