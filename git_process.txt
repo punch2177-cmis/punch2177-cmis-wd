@@ -6,6 +6,6 @@ A new page will pop up, it is called gedit. Go to gedit and type in text.
 Once you are done typing in text, press save and close gedit.
 In terminal, type in "git add (filename)" and press enter
 In terminal, type in "git commit -m "description of the file you have just created"" and press enter
-In terminal, type in "git push (file name)" and press enter
+In terminal, type in "git push" and press enter
 Terminal will ask for your github username, type in your github username and press enter
 Terminal will ask for your github password, type in your github password and press enter
