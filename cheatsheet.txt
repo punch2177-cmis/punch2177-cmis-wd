@@ -9,3 +9,11 @@ cd punch2177-cmis-wd:to get into repository
 ls: to view home folder
 cd: Go back to home folder
 cd ..: Back up one folder
+rm: remove files from public .html
+put: put files into public html
+!ls: list out files in repository
+*:all files in repo
+sftp punch2177@cmis-hsteacher: open sftp
+python -m SimpleHTTPServer: open development server
+localhost:8000 : to see index.html
+
