@@ -1,13 +1,49 @@
+/*Create a new file called "main.css"
+*Add a link element to the head of your index.html file
+<link rel="stylesheet" href="main.css" type="text/css">
+*Edit the main.css file
+*add a declaration for each element in the body of your index.html file.
+*add properties to style the background color of each element.
+*add properties to style the border of each element.
+*add properties to style the font of each element.
+*View your index.html in the development server.
+*Validate your index.html file.
+*Validate your main.css file.
+*Copy this list of requirements and paste it into your "main.css" file as a css comment. Put an asterisk in front of each one that you did.
+*Upload to the production server with sftp.
+*View your index.html in the production server.
+*/
+body{
+	background-color:#E0FFFF;
+}
 h1{		 
-	color: #40E0D0
-	font-family: Impact, Charcoal, sans-serif
+	color: #40E0D0;
+	font-family: Impact, Charcoal, sans-serif;
+	background-color: #FFF8DC;
+	border-style: dotted solid;
+	border-width: thick;
+	text-align: center;
 }
 h2{ 
-	color: #4682B4
-	font-family: Impact, Charcoal, sans-serif
+	color: #4682B4;
+	font-family: "Lucida Console", Monaco, monospace;
+	background-color: #FF7F50;
+	border-style: dotted;
+	text-align: center;
 }
 p{ 
-	color: #87CEEB
+	color: #87CEEB;
+	font-family:"Courier New", Courier, monospace;
+	font-size:110%;
+	background-color: #FFFFF0;
+	border-width:5px;
+	border-style: dotted solid double dashed;
 }
 footer{ 
+	background-color: #00CED1;
+	font-family: "Courier New", Courier, monospace;
+	border-style: dashed;
+	border-width: 5px;
+	border-color: #778899;
+	color: #778899;
 }
