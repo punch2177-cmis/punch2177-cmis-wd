@@ -14,7 +14,7 @@
 *View your index.html in the production server.
 */
 body{
-	background-color:#E0FFFF;
+	background-image:url(http://wallpaperus.org/wallpapers/06/43/abstract-fluid-1920x1200-wallpaper-2111269.jpg);
 }
 h1{		 
 	color: #40E0D0;
@@ -23,6 +23,10 @@ h1{
 	border-style: dotted solid;
 	border-width: thick;
 	text-align: center;
+	width: 400px;
+	height:50px;
+	margin: auto;
+	font-style:italic;
 }
 h2{ 
 	color: #4682B4;
@@ -32,12 +36,17 @@ h2{
 	text-align: center;
 }
 p{ 
-	color: #87CEEB;
+	color: #00CED1;
 	font-family:"Courier New", Courier, monospace;
 	font-size:110%;
-	background-color: #FFFFF0;
+	font-weight:bold;
+	background-color: #E0FFFF;
 	border-width:5px;
 	border-style: dotted solid double dashed;
+	text-align: left;
+	width: 1100px;
+	height:50px;
+	margin:auto;
 }
 footer{ 
 	background-color: #00CED1;
@@ -46,4 +55,7 @@ footer{
 	border-width: 5px;
 	border-color: #778899;
 	color: #778899;
+	font-weight:bold;
+	font-variant:small-caps;
+	margin: 70px;
 }
