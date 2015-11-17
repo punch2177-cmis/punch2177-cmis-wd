@@ -1,0 +1,67 @@
+header{
+	background-color:red;
+	border-style: hidden hidden dashed hidden;
+	border-width:10px;
+	border-color:yellow;
+}
+h2{
+	color:yellow;
+	background-color:purple;
+	font-family: Impact, Charcoal, sans-serif;
+	font-style: italic;
+	border-style: hidden dashed hidden hidden;
+	border-width:15px;
+}
+p{
+	color:blue;
+	font-family:Impact, Charcoal, sans-serif;
+	font-style: italic;
+}
+h3{
+	color: purple;
+	background-color: yellow;
+	font-weight:bold;
+	font-family: "Times New Roman", Times, serif;	
+	border-top-style:dashed;
+	border-top-color: purple;
+	border-right-style:hidden;
+	border-bottom-style:hidden;
+	border-left-style: hidden;
+}
+h4{
+	color: yellow;
+	font-weight:bold;
+	background-color: green;
+	border-top-style:hidden;
+	border-right-style:hidden;
+	border-bottom-style:dotted;
+	border-bottom-color:yellow;
+	border-left-style:hidden;
+}
+h5{
+	color:blue;
+	font-family: "Times New Roman", Times, serif;
+	border-top-style: hidden;
+	border-right-style:hidden;
+	border-bottom-style:hidden;
+	border-left-style: hidden;
+}
+main{
+	border-top-style:hidden;
+	border-right-style:solid;
+	border-right-color:blue;
+	border-right-width:8px;
+	border-bottom-style:hidden;
+	border-left-style: solid;
+	border-left-color: red;
+	border-left-width: 8px;
+}
+footer{
+	color:blue;
+	border-top-style:dotted;
+	border-right-style:groove;
+	border-right-color:#DAA520;
+	border-bottom-style: hidden;
+	border-left-style:groove;
+	border-left-color:#DAA520;
+}
