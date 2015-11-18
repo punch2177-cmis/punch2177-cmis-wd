@@ -16,4 +16,11 @@ put: put files into public html
 sftp punch2177@cmis-hsteacher: open sftp
 python -m SimpleHTTPServer: open development server
 localhost:8000 : to see index.html
+cd public_html: before uploading files onto production server
+(http://)cmis-hsteacher/~punch2177 : to view things on production server
+mkdir: to create directory
+rmdir: to remove directory
+git add folder name/ file name: to add specific file with same name
+git add folder name : add everything in that file
+cd into folder before sftp and then mkdir folder in sftp in order to upload file in sub folder onto production server
 
