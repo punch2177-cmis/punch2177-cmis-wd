@@ -13,67 +13,79 @@
 			</h1>
 		</header>
 		<nav>
+			<ul>
+				<li>
+					<a href=".."> Home</a>
+				</li>
+				<li>
+					<a href="../listsandlinks/"> Lists and Links</a> 
+				</li>
+			</ul>
 		</nav>
 		<main>
 			<h2>
 				Simple Grid
 			</h2>
 			<table border="1">
-				<tr>
-					<th>
-						A
-					</th>
-					<th>
-						B
-					</th>
-					<th>
-						C
-					</th>
-				</tr>
-				<tr>
-					<td>
-						1
-					</td>
-						<td>
-						2
-					</td>
-					<td>
-						3
-					</td>
-				</tr>
-				<tr>
-					<td>
-						4
-					</td>
-						<td>
-						5
-					</td>
-					<td>
-						6
-					</td>
-				</tr>
+				<thead>
 					<tr>
-					<td>
-						7
-					</td>
+						<th>
+							A
+						</th>
+						<th>
+							B
+						</th>
+						<th>
+							C
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
 						<td>
-						8
-					</td>
-					<td>
+							1
+						</td>
+						<td>
+							2
+						</td>
+						<td>
+							3
+						</td>
+					</tr>
+					<tr>
+						<td>
+							4
+						</td>
+						<td>
+							5
+						</td>
+						<td>
+							6
+						</td>
+					</tr>
+					<tr>
+						<td>
+							7
+						</td>
+						<td>
+							8
+						</td>
+						<td>
 						9
-					</td>
-				</tr>
+						</td>
+					</tr>
 					<tr>
-					<td>
-						12
-					</td>
 						<td>
-						15
-					</td>
-					<td>
+							12
+						</td>
+						<td>
+							15
+						</td>
+						<td>
 						18
-					</td>
-				</tr>
+						</td>
+					</tr>
+				</tbody>
 			</table>
 			<h2>
 				Calendar
@@ -222,12 +234,40 @@
 					</tbody>
 					<tfoot>
 						<tr>
-							<td colspan="7"> Created by:Me!</th>
+							<td colspan="7"> Created by:Me!</td>
 						</tr>
 					</tfoot>
 				</table>
+			<h2>
+				Class Schedule
+			</h2>
+				<table border="1">
+					<thead>
+						<tr>
+							<th>Period</th>
+							<th>Class Info</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th rowspan="2"> 1</th>
+							<td> Mr.Kieffer</td>
+						</tr>
+						<tr>
+							<td> Computer Science </td>
+						</tr>
+						<tr>
+							<th rowspan="2"> 2</th>
+							<td> Mr.Knox </td>
+						</tr>
+						<tr>
+							<td> Ancient World History </td>
+						</tr>
+					</tbody>
+				</table>
 		</main>
 		<footer>
+			&copy;2015 Punch Sethapanichsakul - CMIS Web Design
 		</footer>
 	</body>	
 </html>
