@@ -1,0 +1,24 @@
+h2 ~ p{
+	width:300px;
+	padding: 25px;
+	border: 25px solid navy;
+	margin:25px;
+}
+main > h2{
+	width:300px;
+	padding: 25px;
+	border: 25px solid navy;
+	margin:25px;
+}
+p + ul{
+	width:300px;
+	padding: 25px;
+	border: 25px solid navy;
+	margin:25px;
+}
+nav + ul{
+	width:300px;
+	padding: 25px;
+	border: 25px solid navy;
+	margin:25px;
+}
