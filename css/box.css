@@ -1,24 +1,38 @@
 h2 ~ p{
-	width:300px;
+	width:auto;
 	padding: 25px;
-	border: 25px solid navy;
+	border: 25px solid #F4B5F3;
 	margin:25px;
+	height:auto;
 }
 main > h2{
-	width:300px;
-	padding: 25px;
-	border: 25px solid navy;
+	width:auto;
+	padding: 15px;
+	border: 10px solid #F4B5F3;
 	margin:25px;
+	height: auto;
 }
 p + ul{
+	width:auto;
+	padding: 25px;
+	border: 25px solid yellow;
+	margin:25px;
+	height:auto;
+}
+h2 ~ table{
+	width:auto;
+	padding: 25px;
+	border: 7px solid #F4B5F3;
+	margin:25px;
+	height: auto;
+}
+h2 + ul{
 	width:300px;
 	padding: 25px;
-	border: 25px solid navy;
+	border: 10px dashed #F4B5F3;
 	margin:25px;
+	height:auto;
 }
-nav + ul{
-	width:300px;
-	padding: 25px;
-	border: 25px solid navy;
-	margin:25px;
-}
+body{
+	background-image:url(http://img.lapseshot.com/images/static.tumblr.com/753ce97b47ebb837765b463efa519d92/5eviw2b/IL0mzx0v6/tumblr_static_tumblr_static_tumblr_static_tumblr_static_unicorn_gif_banner_.gif);
+}	
