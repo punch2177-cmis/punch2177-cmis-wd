@@ -17,9 +17,9 @@ body{
 	background-image:url(http://wallpaperus.org/wallpapers/06/43/abstract-fluid-1920x1200-wallpaper-2111269.jpg);
 }
 h1{		 
-	color: #40E0D0;
+	color: #990099;
 	font-family: Impact, Charcoal, sans-serif;
-	background-color: #FFF8DC;
+	background-color: #000000;
 	border-style: dotted solid;
 	border-width: thick;
 	text-align: center;
@@ -29,18 +29,18 @@ h1{
 	font-style:italic;
 }
 h2{ 
-	color: #4682B4;
+	color: #000000;
 	font-family: "Lucida Console", Monaco, monospace;
-	background-color: #FF7F50;
+	background-color: #9900FF;
 	border-style: dotted;
 	text-align: center;
 }
 p{ 
-	color: #00CED1;
+	color: #000000;
 	font-family:"Courier New", Courier, monospace;
 	font-size:110%;
 	font-weight:bold;
-	background-color: #E0FFFF;
+	background-color: #CC00CC;
 	border-width:5px;
 	border-style: dotted solid double dashed;
 	text-align: left;
@@ -49,12 +49,12 @@ p{
 	margin:auto;
 }
 footer{ 
-	background-color: #00CED1;
+	background-color: #6600FF;
 	font-family: "Courier New", Courier, monospace;
 	border-style: dashed;
 	border-width: 5px;
 	border-color: #778899;
-	color: #778899;
+	color: #000000;
 	font-weight:bold;
 	font-variant:small-caps;
 	margin: 70px;

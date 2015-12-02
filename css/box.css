@@ -1,7 +1,7 @@
 h2 ~ p{
 	width:auto;
 	padding: 25px;
-	border: 25px solid #F4B5F3;
+	border: 25px solid #66FFFF;
 	margin:25px;
 	height:auto;
 }
@@ -15,7 +15,7 @@ main > h2{
 p + ul{
 	width:auto;
 	padding: 25px;
-	border: 25px solid yellow;
+	border: 25px solid #3300CC;
 	margin:25px;
 	height:auto;
 }
@@ -34,5 +34,42 @@ h2 + ul{
 	height:auto;
 }
 body{
-	background-image:url(http://img.lapseshot.com/images/static.tumblr.com/753ce97b47ebb837765b463efa519d92/5eviw2b/IL0mzx0v6/tumblr_static_tumblr_static_tumblr_static_tumblr_static_unicorn_gif_banner_.gif);
-}	
+	background-image:url(http://picpuddle.com/wp-content/uploads/2014/06/tumblr-backgrounds-giflumineux-and-small-girls-perfect-oqkvdrnp.gif);
+}
+header h1{
+	width:300px;
+	padding: 25px;
+	border: 10px dashed #F4B5F3;
+	margin:auto;
+	height:auto;
+}
+article{
+	color:#FFFFFF;	
+}
+h2{
+	color:white;
+}
+ol{
+	color:white;
+}
+ul{
+	color:white;
+}
+li{
+	color:#66FFFF;
+}
+h1{		 
+	color: #990099;
+	font-family: Impact, Charcoal, sans-serif;
+	background-color: #000000;
+	border-style: dotted solid;
+	border-width: thick;
+	text-align: center;
+	width: 400px;
+	height:50px;
+	margin: auto;
+	font-style:italic;
+}
+table{
+	color:#66FFFF;
+}
