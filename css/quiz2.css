@@ -1,0 +1,61 @@
+header > h1{
+	width:400px;
+	height:auto;
+	border:2px solid yellow;
+	margin:20px;
+}
+header{
+	background-color:red;
+	border-left-style:hidden;
+	border-right-style:solid;
+	border-top-style:hidden;
+	border-bottom-style:hidden;
+	border-right-color:yellow;
+	border-right-width:100px;
+	height:200px;
+	width:400px;
+}
+header > p{
+	color:white;
+	font-weight:bold;
+}
+nav{
+	border-style:solid;
+	border-color:black;
+	margin:70px;
+}
+main{
+	background-color:#A0A0A0;
+}
+h2 + p{
+	background-color:white;
+}
+p + p{
+	background-color:black;
+	color:white;
+}
+thead > tr{
+	background-color:yellow;
+	border-bottom-style:solid;
+	border-bottom-color:green;
+	border-bottom-width:10px;
+	border-top-style:hidden;
+	border-left-style:hidden;
+	border-right-style:hidden;
+}
+footer{
+	background-color:blue;
+	color:white;
+	border-style:dashed;
+	border-color:blue;
+}
+tfoot > tr{
+	background-color:red;
+	color:yellow;
+}
+th + td{
+	background-color:#A0A0A0;
+	color:black;
+}
+tbody > tr{
+
