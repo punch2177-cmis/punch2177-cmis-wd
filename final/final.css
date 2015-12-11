@@ -1,7 +1,19 @@
+*{
+	outline:solid 2px blue;
+}
 nav{
 	width:200px;
 	float:left;
+	clear:right;
 }
 main{
 	margin-left:201px;
+	clear:right;
 }
+img.right{
+	float:right;	
+}
+p{
+	clear:right;
+}
+
