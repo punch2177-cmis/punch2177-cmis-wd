@@ -1,19 +1,42 @@
-*{
-	outline:solid 2px blue;
-}
+
 nav{
 	width:200px;
 	float:left;
 	clear:right;
+	background-color:#ace600;
 }
 main{
 	margin-left:201px;
 	clear:right;
+	background-color:#ffa74d;
 }
 img.right{
 	float:right;	
 }
 p{
 	clear:right;
+	font-family:'Poiret One',cursive;
+	font-weight:bold;
+	font-size:20px;
 }
-
+h3{
+	font-family:'Special Elite',cursive;
+	font-size:30px;
+}
+h1{
+	font-family: 'Megrim', cursive;
+	font-weight:bold;
+	font-size:40px;
+	background-color:#00cbcc;
+}
+h2{
+	font-family:'Lobster', cursive;
+	font-size:30px;
+}
+ul{
+	font-family:'Poiret One', cursive;
+	font-weight:bold;
+}
+body{
+	background-color:#CC00CC
+}
