@@ -27,6 +27,7 @@ p{
 	font-family:'Poiret One',cursive;
 	font-weight:bold;
 	font-size:20px;
+	margin-right:250px;
 }
 h3{
 	font-family:'Special Elite',cursive;
@@ -47,6 +48,7 @@ ul{
 	font-family:'Poiret One', cursive;
 	font-weight:bold;
 	clear: none;
+	margin-right:250px;
 }
 footer{
 	clear:both;
