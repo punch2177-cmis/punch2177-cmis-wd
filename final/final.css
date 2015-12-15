@@ -1,4 +1,6 @@
-
+*{
+	//outline:2px blue solid;
+}
 nav{
 	width:200px;
 	float:left;
@@ -9,12 +11,19 @@ main{
 	margin-left:201px;
 	clear:right;
 	background-color:#ffa74d;
+	overflow: auto;
 }
 img.right{
 	float:right;	
+	height:200px;
+	width:250px;
+}
+img.photo{
+	float:right;
+	height:200px;
+	width:250px;
 }
 p{
-	clear:right;
 	font-family:'Poiret One',cursive;
 	font-weight:bold;
 	font-size:20px;
@@ -22,6 +31,7 @@ p{
 h3{
 	font-family:'Special Elite',cursive;
 	font-size:30px;
+	clear:right;
 }
 h1{
 	font-family: 'Megrim', cursive;
@@ -36,6 +46,15 @@ h2{
 ul{
 	font-family:'Poiret One', cursive;
 	font-weight:bold;
+	clear: none;
+}
+footer{
+	clear:both;
+}
+img.photoleft{
+	height:200px;
+	width:250px;
+	float:right;
 }
 body{
 	background-color:#CC00CC
